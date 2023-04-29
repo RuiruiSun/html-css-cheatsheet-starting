@@ -1,0 +1,53 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    position: relative;
+    padding: 50px;
+}
+
+body::before {
+    content: "";
+    background-image: url('https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg');
+    background-size: cover;
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.tag {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: rgb(228, 240, 241);
+}
+
+table,
+thead,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead {
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgba(187, 139, 185, 0.773);
+}
+
+td {
+    padding: 8px;
+}
+
+h1,
+h2,
+thead {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
